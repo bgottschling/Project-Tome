@@ -7,11 +7,11 @@
 
 - Multiple classes that implement the Character Interface and the Race Interface for the goal of creating the Character and Class(RPG) of the Character via a Class Factory. 
 
- **Note: This May be a lot of classes to define due to the possibilities of combinations. Is there a better way to instantiate a character object which abstracts the Class and Race into one object.
+  ****Note: This May be a lot of classes to define due to the possibilities of combinations. Is there a better way to instantiate a character object which abstracts the Class and Race into one object.
 
 - A Class Factory class would have 2 arguments, one for Race and one for Class to create a character object and a switch case statement would take the Race and the Class to determine the Race-Class combination and return a race-class object (character). 
 
-  **Note: Same bottle-neck as above.
+  ****Note: Same bottle-neck as above.
 
 ## The Execution
 
@@ -27,15 +27,15 @@ Like so:
 
 - Prompts again for the size specifications(Tiny, Small, Medium, Large, Extra Large) which will also call a setter.
 
-  **Note: Dependening on Race, size choices will be limited via some conditional flow.
+  ****Note: Dependening on Race, size choices will be limited via some conditional flow.
 
 - Base attribute stats at 10 and gives stat points for allocation with a hard cap at 20 which call setters for each input provided.
 
-  **Note: May be tricky to implement in a console application. It would be cool to find out how to do this.
+  ****Note: May be tricky to implement in a console application. It would be cool to find out how to do this.
 
 - Then calls the character object methods for abilities to test.
 
-  **Note: Is there a better way than sticking everything in Main? 
+  ****Note: Is there a better way than sticking everything in Main? 
 
 ## Summary of Concerns
 
