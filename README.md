@@ -1,4 +1,4 @@
-#  Implementation Plan
+#  Character Creation Implementation Plan
 
 ## It would contain
 - An Interface for character that contain getters and setters for Name, Age, Height, etc... 
