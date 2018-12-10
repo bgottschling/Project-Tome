@@ -32,7 +32,7 @@ Like so:
 - Then calls the character object methods for abilities to test.
  - Is there a better way than sticking everything in Main? 
 
-##Summary of Concerns
+## Summary of Concerns
 
 Would it be better to create a Character Creation class which will be instantiated in main to call a user creation method which prompts the user for input to create the character object and then prompts for inputs to set the character info.
  
